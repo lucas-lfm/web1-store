@@ -1,0 +1,21 @@
+{
+  "name": "web1-store",
+  "version": "0.0.1",
+  "description": "Projeto didático para a disciplina de desenvolvimento web 1, do curso de Informática para a Internet - IFCE Campus Tauá.",
+  "license": "ISC",
+  "author": "Lucas Mendes",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./app.js",
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

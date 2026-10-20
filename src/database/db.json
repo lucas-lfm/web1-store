@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nome": "Mouse Gamer",
+    "preco": 99.9,
+    "categoria": "Informática"
+  },
+  {
+    "id": 2,
+    "nome": "Geladeira",
+    "preco": 2500,
+    "categoria": "Eletrodoméstico"
+  },
+  {
+    "id": 3,
+    "nome": "Monitor Ultrawide",
+    "preco": 1250,
+    "categoria": "Informática"
+  }
+]
