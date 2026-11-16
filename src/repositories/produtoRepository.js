@@ -11,4 +11,13 @@ async function buscarTodosProdutos() {
   return JSON.parse(conteudo);
 }
 
-export { buscarTodosProdutos };
+async function buscarPorId(id) {
+  const conteudo = await readFile(arquivo);
+  const produtos = JSON.parse(conteudo);
+
+  const produto = produtos.find((p) => p.id === id);
+
+  return produto;
+}
+
+export { buscarTodosProdutos, buscarPorId };
